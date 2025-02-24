@@ -1,0 +1,11 @@
+
+#images{
+    background-color: coral;
+    display: grid;
+    padding: 10px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit,minmax(25%,1fr));
+}
+#images > img{
+    width: 100%;
+}
